@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 15%;
+}
+  
+.card2 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+  
+@media (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

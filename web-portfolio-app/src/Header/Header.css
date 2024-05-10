@@ -1,0 +1,32 @@
+.header {
+    overflow: hidden;
+    margin: 0px;
+    margin-bottom: 20px;
+    max-height: 40%;
+    width: 100%;
+    text-align: center;
+}
+  
+.header-image {
+    margin: 30px;
+    border-radius: 50%;
+    border: 3px solid hsl(0, 0%, 100%);
+    max-width: 60%;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: hsl(0, 0%, 20%);
+}
+
+.header-text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: hsl(0, 0%, 30%);
+}
